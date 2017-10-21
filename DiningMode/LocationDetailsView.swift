@@ -34,6 +34,7 @@ class LocationDetailsView: UIView {
 }
 
 extension LocationDetailsView: ReservationConfigurable {
+    
     func configure(with reservation: Reservation) {
         let region = MKCoordinateRegion(center: reservation.restaurant.location.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
         mapView.setRegion(region, animated: true)

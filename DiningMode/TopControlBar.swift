@@ -9,11 +9,13 @@
 import UIKit
 
 protocol TobBarControlBarDelegate {
+    
     func bannerAction(for topBar: TopControlBar)
     func shareAction(for topBar: TopControlBar)
 }
 
 class TopControlBar: UIView {
+
     var closeButton = UIView()
     var shareButton = UIButton(type: .custom)
     var delegate: TobBarControlBarDelegate?

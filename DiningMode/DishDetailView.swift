@@ -9,6 +9,7 @@
 import UIKit
 
 class DishDetailView: UIView {
+    
     static let defaultImageHeight = 75.0
     @IBOutlet var contentView: UIView!
     @IBOutlet weak var photosbutton: ImageTextButton!
@@ -51,6 +52,7 @@ class DishDetailView: UIView {
 }
 
 extension DishDetailView {
+
     func configure(with dish: Dish) {
         photosbutton.text = String(describing: dish.photos.count) + " photos"
         if let snippetString = dish.snippet.snippetString {
@@ -80,6 +82,7 @@ extension DishDetailView {
 }
 
 extension Snippet {
+    
     var snippetString: String? {
         get {
             guard let range = Range(range, in: content) else { return nil }

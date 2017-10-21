@@ -61,6 +61,7 @@ class ReservationDetailsView: UIView {
 }
 
 extension ReservationDetailsView: ReservationConfigurable {
+    
     func configure(with reservation: Reservation) {
         let size = reservation.partySize
         let imageSize = CGSize(width: restaurantImageView.frame.width, height: restaurantImageView.frame.height)

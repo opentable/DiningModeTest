@@ -22,6 +22,7 @@ protocol PopupControllerPresentationDelegate {
 }
 
 class PopupViewController: UIViewController {
+    
     var popDelegate: PopupControllerPresentationDelegate!
     var topBar = TopControlBar()
     var topBarHeight: CGFloat = 60.0
@@ -36,7 +37,7 @@ class PopupViewController: UIViewController {
         self.childController = childViewController
 
         topBar.delegate = self
-        topBar.frame = CGRect(x: 0.0, y: 0.0, width: 414, height: 60.0)
+        topBar.frame = CGRect(x: 0.0, y: 0.0, width: UIScreen.main.bounds.width, height: 60.0)
         view.addSubview(topBar)
         let dragGR = UIPanGestureRecognizer(target: self, action: #selector(dragAction(_:)))
         topBar.addGestureRecognizer(dragGR)

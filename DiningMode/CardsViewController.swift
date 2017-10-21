@@ -29,6 +29,7 @@ class CardsViewController: UIViewController {
 }
 
 extension CardsViewController: ReservationConfigurable {
+    
     func configure(with reservation: Reservation) {
         detailsCardView.configure(with: reservation)
         locationCardView.configure(with: reservation)
