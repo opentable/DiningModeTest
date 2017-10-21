@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNext.ttc">
+            <string>AvenirNext-DemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DishDetailView" customModule="DiningMode" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="lOy-OJ-O5A"/>
+                <outlet property="descriptionLabel" destination="D36-Dn-oPG" id="TXW-MU-W7q"/>
+                <outlet property="imageView" destination="1tM-2p-5Kf" id="ysy-8x-g5J"/>
+                <outlet property="photosbutton" destination="fPu-8A-cB3" id="SzE-KB-0fi"/>
+                <outlet property="reviewsButton" destination="VWg-0h-Vds" id="kJT-WU-4gd"/>
+                <outlet property="titleLabel" destination="Onx-3l-YPu" id="l9m-u4-Ysi"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1tM-2p-5Kf">
+                    <rect key="frame" x="8" y="8" width="75" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="1tM-2p-5Kf" secondAttribute="height" id="OYz-mG-aOo"/>
+                        <constraint firstAttribute="height" constant="75" id="rMT-Cq-BZW"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fPu-8A-cB3" customClass="ImageTextButton" customModule="DiningMode" customModuleProvider="target">
+                    <rect key="frame" x="87" y="87" width="100" height="28"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.75019531250000004" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="HlN-g2-dce"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="arrangementOption" value="right"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="image" value="profile"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="text" value="1 photo"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Onx-3l-YPu">
+                    <rect key="frame" x="91" y="8" width="272" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="ysp-Eh-4oq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D36-Dn-oPG">
+                    <rect key="frame" x="91" y="31" width="272" height="52"/>
+                    <string key="text">Bruschetta with cherries, gorgonzola and prosciutto was so delicious.  The Alaskan halibut special was perfectly prepared with just the right amount of mushrooms, asparagus and prosciutto.  The nectarine sorbetto was refreshing and light with just the right kind of ginger cookie to go with it.  Another fabulous meal with a split of Chianti and we were off to the theater as content as we could be.</string>
+                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VWg-0h-Vds" customClass="ImageTextButton" customModule="DiningMode" customModuleProvider="target">
+                    <rect key="frame" x="203" y="87" width="120" height="28"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.75019531250000004" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="jTI-P2-zCV"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="arrangementOption" value="right"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="image" value="profile"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="text" value="6 reviews"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1tM-2p-5Kf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="6PV-v7-Um9"/>
+                <constraint firstAttribute="bottom" secondItem="1tM-2p-5Kf" secondAttribute="bottom" constant="32" id="75Z-EB-Zku"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Onx-3l-YPu" secondAttribute="trailing" constant="12" id="7KP-vh-7cu"/>
+                <constraint firstItem="fPu-8A-cB3" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="LGE-Mr-gbO"/>
+                <constraint firstItem="1tM-2p-5Kf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="Z1Q-ex-Pgo"/>
+                <constraint firstItem="D36-Dn-oPG" firstAttribute="trailing" secondItem="Onx-3l-YPu" secondAttribute="trailing" id="ZR1-yy-rWn"/>
+                <constraint firstItem="D36-Dn-oPG" firstAttribute="top" secondItem="Onx-3l-YPu" secondAttribute="bottom" constant="3" id="awo-Y1-OxB"/>
+                <constraint firstItem="Onx-3l-YPu" firstAttribute="top" secondItem="1tM-2p-5Kf" secondAttribute="top" id="cBC-YJ-17D"/>
+                <constraint firstItem="Onx-3l-YPu" firstAttribute="leading" secondItem="1tM-2p-5Kf" secondAttribute="trailing" constant="8" id="d3F-hp-yY8"/>
+                <constraint firstItem="VWg-0h-Vds" firstAttribute="leading" secondItem="fPu-8A-cB3" secondAttribute="trailing" constant="16" id="es0-KQ-aq7"/>
+                <constraint firstItem="VWg-0h-Vds" firstAttribute="bottom" secondItem="fPu-8A-cB3" secondAttribute="bottom" id="hUo-w6-5nI"/>
+                <constraint firstItem="fPu-8A-cB3" firstAttribute="top" secondItem="1tM-2p-5Kf" secondAttribute="bottom" constant="4" id="i63-P8-17g"/>
+                <constraint firstItem="VWg-0h-Vds" firstAttribute="top" secondItem="fPu-8A-cB3" secondAttribute="top" id="kJh-x6-1rN"/>
+                <constraint firstItem="D36-Dn-oPG" firstAttribute="leading" secondItem="Onx-3l-YPu" secondAttribute="leading" id="rYJ-ca-YKl"/>
+                <constraint firstItem="D36-Dn-oPG" firstAttribute="bottom" secondItem="1tM-2p-5Kf" secondAttribute="bottom" id="tD2-2F-Y5p"/>
+                <constraint firstItem="fPu-8A-cB3" firstAttribute="leading" secondItem="1tM-2p-5Kf" secondAttribute="trailing" constant="4" id="tcX-qt-Ffj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="77.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="profile" width="20" height="20"/>
+    </resources>
+</document>
