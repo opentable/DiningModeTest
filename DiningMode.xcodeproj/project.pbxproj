@@ -21,6 +21,18 @@
 		009573361DF23288003412B9 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 009573331DF2327D003412B9 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		00EE09721DF24D160096F568 /* PartialReservation.json in Resources */ = {isa = PBXBuildFile; fileRef = 00EE09711DF24D160096F568 /* PartialReservation.json */; };
 		00EE09741DF24D520096F568 /* FullReservation.json in Resources */ = {isa = PBXBuildFile; fileRef = 00EE09731DF24D520096F568 /* FullReservation.json */; };
+		9B710D871F9B284E008263F8 /* ReservationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0D0F1F9B264500B78140 /* ReservationDetailsView.swift */; };
+		9B710D881F9B2861008263F8 /* ReservationDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8B0D101F9B264600B78140 /* ReservationDetailsView.xib */; };
+		9B710D891F9B2865008263F8 /* LocationsDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8B0D0E1F9B264500B78140 /* LocationsDetailView.xib */; };
+		9B710D8A1F9B2868008263F8 /* DishDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8B0D121F9B264600B78140 /* DishDetailView.xib */; };
+		9B8B0D0A1F9B262700B78140 /* OTTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0D071F9B262700B78140 /* OTTabBarController.swift */; };
+		9B8B0D0B1F9B262700B78140 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0D081F9B262700B78140 /* PopUpViewController.swift */; };
+		9B8B0D0C1F9B262700B78140 /* TopControlBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0D091F9B262700B78140 /* TopControlBar.swift */; };
+		9B8B0D181F9B264600B78140 /* DishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0D111F9B264600B78140 /* DishDetailView.swift */; };
+		9B8B0D191F9B264600B78140 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0D131F9B264600B78140 /* DishesView.swift */; };
+		9B8B0D1A1F9B264600B78140 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0D141F9B264600B78140 /* CardsViewController.swift */; };
+		9B8B0D1B1F9B264600B78140 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0D151F9B264600B78140 /* LocationDetailsView.swift */; };
+		9B8B0D1C1F9B264600B78140 /* ImageTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0D161F9B264600B78140 /* ImageTextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +86,18 @@
 		009573331DF2327D003412B9 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
 		00EE09711DF24D160096F568 /* PartialReservation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PartialReservation.json; sourceTree = "<group>"; };
 		00EE09731DF24D520096F568 /* FullReservation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FullReservation.json; sourceTree = "<group>"; };
+		9B8B0D071F9B262700B78140 /* OTTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTabBarController.swift; sourceTree = "<group>"; };
+		9B8B0D081F9B262700B78140 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		9B8B0D091F9B262700B78140 /* TopControlBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlBar.swift; sourceTree = "<group>"; };
+		9B8B0D0E1F9B264500B78140 /* LocationsDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationsDetailView.xib; sourceTree = "<group>"; };
+		9B8B0D0F1F9B264500B78140 /* ReservationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailsView.swift; sourceTree = "<group>"; };
+		9B8B0D101F9B264600B78140 /* ReservationDetailsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReservationDetailsView.xib; sourceTree = "<group>"; };
+		9B8B0D111F9B264600B78140 /* DishDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailView.swift; sourceTree = "<group>"; };
+		9B8B0D121F9B264600B78140 /* DishDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishDetailView.xib; sourceTree = "<group>"; };
+		9B8B0D131F9B264600B78140 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		9B8B0D141F9B264600B78140 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		9B8B0D151F9B264600B78140 /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
+		9B8B0D161F9B264600B78140 /* ImageTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +153,8 @@
 				009573291DF22145003412B9 /* Vendor */,
 				009572FB1DF2210E003412B9 /* AppDelegate.swift */,
 				009572FD1DF2210E003412B9 /* ViewController.swift */,
+				9B8B0D0D1F9B262F00B78140 /* PopupController */,
+				9B8B0D1D1F9B264C00B78140 /* Card Views */,
 				009572FF1DF2210E003412B9 /* Main.storyboard */,
 				009573021DF2210E003412B9 /* Assets.xcassets */,
 				009573041DF2210E003412B9 /* LaunchScreen.storyboard */,
@@ -173,6 +199,32 @@
 				009573331DF2327D003412B9 /* AFNetworking.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B8B0D0D1F9B262F00B78140 /* PopupController */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B0D071F9B262700B78140 /* OTTabBarController.swift */,
+				9B8B0D081F9B262700B78140 /* PopUpViewController.swift */,
+				9B8B0D091F9B262700B78140 /* TopControlBar.swift */,
+			);
+			name = PopupController;
+			sourceTree = "<group>";
+		};
+		9B8B0D1D1F9B264C00B78140 /* Card Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B0D141F9B264600B78140 /* CardsViewController.swift */,
+				9B8B0D111F9B264600B78140 /* DishDetailView.swift */,
+				9B8B0D121F9B264600B78140 /* DishDetailView.xib */,
+				9B8B0D131F9B264600B78140 /* DishesView.swift */,
+				9B8B0D161F9B264600B78140 /* ImageTextButton.swift */,
+				9B8B0D151F9B264600B78140 /* LocationDetailsView.swift */,
+				9B8B0D0E1F9B264500B78140 /* LocationsDetailView.xib */,
+				9B8B0D0F1F9B264500B78140 /* ReservationDetailsView.swift */,
+				9B8B0D101F9B264600B78140 /* ReservationDetailsView.xib */,
+			);
+			name = "Card Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,9 +343,12 @@
 			files = (
 				009573311DF2254C003412B9 /* 2dishes.json in Resources */,
 				009573061DF2210E003412B9 /* LaunchScreen.storyboard in Resources */,
+				9B710D8A1F9B2868008263F8 /* DishDetailView.xib in Resources */,
+				9B710D891F9B2865008263F8 /* LocationsDetailView.xib in Resources */,
 				009573031DF2210E003412B9 /* Assets.xcassets in Resources */,
 				00EE09721DF24D160096F568 /* PartialReservation.json in Resources */,
 				00EE09741DF24D520096F568 /* FullReservation.json in Resources */,
+				9B710D881F9B2861008263F8 /* ReservationDetailsView.xib in Resources */,
 				009573011DF2210E003412B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,8 +375,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				009572FE1DF2210E003412B9 /* ViewController.swift in Sources */,
+				9B8B0D0B1F9B262700B78140 /* PopUpViewController.swift in Sources */,
+				9B8B0D181F9B264600B78140 /* DishDetailView.swift in Sources */,
 				009572FC1DF2210E003412B9 /* AppDelegate.swift in Sources */,
+				9B8B0D0C1F9B262700B78140 /* TopControlBar.swift in Sources */,
+				9B8B0D0A1F9B262700B78140 /* OTTabBarController.swift in Sources */,
+				9B8B0D1A1F9B264600B78140 /* CardsViewController.swift in Sources */,
+				9B710D871F9B284E008263F8 /* ReservationDetailsView.swift in Sources */,
 				0095732B1DF22154003412B9 /* Reservation.swift in Sources */,
+				9B8B0D1C1F9B264600B78140 /* ImageTextButton.swift in Sources */,
+				9B8B0D191F9B264600B78140 /* DishesView.swift in Sources */,
+				9B8B0D1B1F9B264600B78140 /* LocationDetailsView.swift in Sources */,
 				0095732F1DF2252F003412B9 /* ReservationAssembler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
